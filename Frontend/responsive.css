@@ -1,0 +1,56 @@
+.body{
+    background-color : lightblue;
+    height : 100vh;
+}
+
+.parent{
+    background-color:yellow;
+    position : relative;
+    width : 300px;
+    height : 200px;
+}
+
+.child{
+    position : absolute;
+    background-color : red;
+    top : 50px;
+    right : 50px;
+}
+
+.container{
+    position : fixed;
+    bottom : 20px;
+    right : 20px;
+    width : 200px;
+    height : 100px;
+    background-color : green;
+}
+
+.content {
+    height : 200px;
+}
+
+.nav{
+    position : sticky;
+    top : 0;
+    background-color : black;
+    color : blue;
+    padding : 30px;
+}
+
+
+.box1{
+    width : 200px;
+    height : 200px;
+    background-color : red;
+    position : absolute;
+    z-index : 2;
+}
+
+.box2{
+    width : 400px;
+    height :400px;
+    background-color : blue;
+    position : absolute;
+    z-index : 1;
+}
